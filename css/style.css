@@ -1,0 +1,40 @@
+.table{
+    border: 10px; 
+    color:blue;
+    padding: 20%;
+    margin-top :20px;
+}
+
+h1{
+    border-block:5px solid red;
+}
+div>p{
+    color: cadetblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+}
+p::first-letter{
+    color: yellow;
+    font-style: italic;
+}
+.blue{
+    color: blue;
+    font-style:initial
+}
+.green{
+    color:chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p::before{
+    content:"HEY";
+    color: rgb(51, 255, 0);
+    font-style: italic;
+}
+p::grammar-error{
+    color:fuchsia;
+    font-style: italic;
+}
+::cue-region(){
+    color: firebrick;
+    font-weight:bold;
+}
